@@ -3,74 +3,54 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <link href="style.css" rel="stylesheet" />
+    <title>Task-3</title>
   </head>
   <body>
     <div class="container">
       <header class="header">
         <nav class="nav">
           <div class="logo">
-            <img
-              src="icon/icon-sks.png"
-              class="icon-sks"
-              alt="SKS Funding icon"
-            />
+            <img src="icon/icon.png" class="icon" alt="SKS Funding icon"/>
             <p>SKS Funding</p>
           </div>
           <a href="#" class="btn help">Need help</a>
-          <a href="#" class="notification">
-            <ion-icon
-              class="icon"
-              name="notifications-outline"
-            ></ion-icon>
+          <a href="#" class="bell">
+            <ion-icon class="bell-icon" name="notifications-outline"></ion-icon>
           </a>
           <a href="#">
-            <img
-              class="profile-img-sm"
-              src="img/profile.png"
-              alt="Profile img"
-            />
+            <img class="profile-sm" src="img/c1.png" alt="Profile img" />
           </a>
         </nav>
-
         <div class="profile">
-          <img src="img/profile.png" alt="Photo of Emma" class="profile-img" />
-
+          <img src="img/c1.png" alt="Emma" class="pro-img" />
           <div class="bio">
             <p class="greeting">Hi, Emma good morning 👋</p>
-            <ul class="bio-details">
-              <li class="bio-detail">
-                <span>Email - </span> akp.emma1231@gmail.com
-              </li>
-              <li class="bio-detail"><span>Phone - </span>+91-8897584843</li>
-              <li class="bio-detail">
-                <span>Address - </span> Po Box 2103 Linden, NJ 07036 (USA)
-              </li>
-              <li class="bio-detail"><span>Plan - </span> $100</li>
-              <li class="bio-detail">
-                <span>Joined - </span> Mon 22nd Feb 2019
-              </li>
+            <ul class="details">
+              <li class="detail"><span>Email - </span>akp.emma1231@gmail.com</li>
+              <li class="detail"><span>Phone - </span>+91-8897584843</li>
+              <li class="detail"><span>Address - </span> Po Box 2103 Linden, NJ 07036 (USA)</li>
+              <li class="detail"><span>Plan - </span> $100</li>
+              <li class="detail"><span>Joined - </span> Mon 22nd Feb 2019</li>
             </ul>
           </div>
-
-          <div class="profile-completion">
-            <div class="progress">
-              <div class="progress-inner"><p>75%</p></div>
+          <div class="completion">
+            <div class="pro">
+              <div class="pro-sm"><p>75%</p></div>
             </div>
             <div>
-              <p class="title">Profile Completion</p>
+              <p class="com">Profile Completion</p>
               <p class="request">Please complete profile</p>
-              <a href="#" class="btn btn--complete">Complete</a>
+              <a href="#" class="btn complete">Complete</a>
             </div>
           </div>
-
           <button class="camera">
             <ion-icon class="camera-icon" name="camera-outline"></ion-icon>
           </button>
@@ -79,584 +59,575 @@
 
       <section class="section">
         <aside class="about">
-          <div class="about-title">
+          <div class="title">
             <p>About my family</p>
             <ion-icon class="about-icon" name="ellipsis-horizontal"></ion-icon>
           </div>
 
-          <div class="about-family">
-            <div class="family-category">
-              <p class="family-category-title">Covered persons</p>
-              <div class="family-imgs">
-                <img class="family-img" src="img/c1.jpg" />
-                <img class="family-img" src="img/c2.jpg" />
+          <div class="family">
+            <div class="category">
+              <p class="category-title">Covered persons</p>
+              <div class="photos">
+                <img class="photo" src="img/c2.jpg" />
+                <img class="photo" src="img/c3.jpg" />
               </div>
             </div>
 
-            <div class="family-category">
-              <p class="family-category-title">Beneficiary persons</p>
-              <div class="family-imgs">
-                <img class="family-img" src="img/b1.jpg" />
-                <img class="family-img" src="img/b2.jpg" />
-                <img class="family-img" src="img/b3.jpg" />
+            <div class="category">
+              <p class="category-title">Beneficiary persons</p>
+              <div class="photos">
+                <img class="photo" src="img/c4.jpg" />
+                <img class="photo" src="img/c5.jpg" />
+                <img class="photo" src="img/c6.jpg" />
               </div>
             </div>
 
-            <div class="family-category">
-              <p class="family-category-title">Emergency persons</p>
-              <div class="family-imgs">
-                <img class="family-img" src="img/e1.jpg" />
-                <img class="family-img" src="img/e2.jpg" />
-                <img class="family-img" src="img/e3.jpg" />
-                <img class="family-img" src="img/profile.png" />
+            <div class="category">
+              <p class="category-title">Emergency persons</p>
+              <div class="photos">
+                <img class="photo" src="img/c7.jpg" />
+                <img class="photo" src="img/c8.jpg" />
+                <img class="photo" src="img/c9.jpg" />
+                <img class="photo" src="img/c1.png" />
               </div>
             </div>
           </div>
 
-          <div class="about-title">
+          <div class="title">
             <p>About me</p>
             <ion-icon class="about-icon" name="ellipsis-horizontal"></ion-icon>
           </div>
 
           <div class="about-me">
-            <div class="about-me-info">
+            <div class="info">
               <span>Email</span>
               <p>akp.emma1231@gmail.com</p>
             </div>
-            <div class="about-me-info">
+            <div class="info">
               <span>Phone</span>
               <p>+91-8897554843</p>
             </div>
-            <div class="about-me-info">
+            <div class="info">
               <span>Address</span>
               <p>Po Box 2103 Linden, NJ 07036 (USA)</p>
             </div>
-            <div class="about-me-info">
+            <div class="info">
               <span>Plan</span>
               <p>$100</p>
             </div>
-            <div class="about-me-info">
+            <div class="info">
               <span>Joined</span>
               <p>Mon 22nd Feb 2019</p>
             </div>
           </div>
         </aside>
-
-        <div class="main-container">
+        <div class="main">
           <nav class="main-nav">
-            <ul class="main-nav-list">
+            <ul class="main-list">
               <li class="active">
                 <ion-icon class="dashboard-icon" name="home"></ion-icon>
-                <a href="#" class="main-nav-link">Dashboard</a>
+                <a href="#" class="line">Dashboard</a>
               </li>
               <li>
-                <a href="#" class="main-nav-link">New claims</a>
+                <a href="#" class="line">New claims</a>
               </li>
               <li>
-                <a href="#" class="main-nav-link">Completed claims</a>
+                <a href="#" class="line">Completed claims</a>
               </li>
               <li>
-                <a href="#" class="main-nav-link">Past claims</a>
+                <a href="#" class="line">Past claims</a>
               </li>
               <li>
-                <a href="#" class="main-nav-link">Members</a>
+                <a href="#" class="line">Members</a>
               </li>
               <li>
-                <a href="#" class="main-nav-link">My claims</a>
+                <a href="#" class="line">My claims</a>
               </li>
             </ul>
-            <a href="#" class="btn btn--claim">
+            <a href="#" class="btn claim">
               <img src="icon/banknote.svg" class="icon-pay" />
               <span>Claim</span>
             </a>
           </nav>
 
           <div class="dashboard">
-            <div class="claim-card">
-              <span class="claim-number">23</span>
-              <div class="claim-text">
+            <div class="card">
+              <span class="num">23</span>
+              <div class="text">
                 <p class="claim-title">New claims</p>
-                <div class="claim-imgs">
-                  <img class="claim-img" src="img/b1.jpg" />
-                  <img class="claim-img" src="img/b3.jpg" />
-                  <img class="claim-img" src="img/b2.jpg" />
-                  <img class="claim-img" src="img/c32.jpg" />
+                <div class="imgs">
+                  <img class="img" src="img/c4.jpg" />
+                  <img class="img" src="img/c6.jpg" />
+                  <img class="img" src="img/c9.jpg" />
+                  <img class="img" src="img/c10.jpg" />
                 </div>
               </div>
             </div>
 
-            <div class="claim-card">
-              <span class="claim-number">76</span>
-              <div class="claim-text">
+            <div class="card">
+              <span class="num">76</span>
+              <div class="text">
                 <p class="claim-title">New members</p>
-                <div class="claim-imgs">
-                  <img class="claim-img" src="img/b1.jpg" />
-                  <img class="claim-img" src="img/b3.jpg" />
-                  <img class="claim-img" src="img/b2.jpg" />
-                  <img class="claim-img" src="img/c32.jpg" />
+                <div class="imgs">
+                  <img class="img" src="img/c2.jpg" />
+                  <img class="img" src="img/c7.jpg" />
+                  <img class="img" src="img/c1.png" />
+                  <img class="img" src="img/c10.jpg" />
                 </div>
               </div>
             </div>
 
-            <div class="claim-card">
-              <span class="claim-number">102</span>
-              <div class="claim-text">
+            <div class="card">
+              <span class="num">102</span>
+              <div class="text">
                 <p class="claim-title">Total claims</p>
-                <div class="claim-imgs">
-                  <img class="claim-img" src="img/b1.jpg" />
-                  <img class="claim-img" src="img/b3.jpg" />
-                  <img class="claim-img" src="img/b2.jpg" />
-                  <img class="claim-img" src="img/c32.jpg" />
+                <div class="imgs">
+                  <img class="img" src="img/c5.jpg" />
+                  <img class="img" src="img/c8.jpg" />
+                  <img class="img" src="img/c3.jpg" />
+                  <img class="img" src="img/c32.jpg" />
                 </div>
               </div>
             </div>
-
-            <div class="member">
-              <img
-                class="member-img"
-                src="img/member-1.jpg"
-                alt="Photo of Amelia kimani"
-              />
-
+            <div class="person">
+              <img class="pic" src="img/p1.jpg" alt="Photo of Amelia kimani" />
               <div>
-                <p class="member-name">Amelia Kimani</p>
-                <ul class="member-details">
-                  <li class="member-detail">
-                    <ion-icon
-                      class="icon-filed"
-                      name="calendar-clear-outline"
-                    ></ion-icon>
+                <p class="name">Amelia Kimani</p>
+                <ul class="dets">
+                  <li class="det">
+                    <img src="icon/cal.png" class="cal">
                     <span>Filed - </span>
-                    <p>Thu, Jul 10, 2018 7:30 PM EDT</p>
+                    <p>Thu, Jul 10, 2018</p> <pre> </pre> <p>7:30 PM EDT</p>
                   </li>
-                  <li class="member-detail">
-                    <ion-icon
-                      class="icon-due"
-                      name="calendar-outline"
-                    ></ion-icon>
+                  <li class="det">
+                    <img src="icon/event.png" class="event">
                     <span>Due - </span>
-                    <p>Wed, Jul 23, 2019 12:30 PM</p>
+                    <p>Wed, Jul 23, 2019</p> <pre> </pre> <p>12:30 PM</p>
                   </li>
-                  <li class="member-detail">
-                    <ion-icon
-                      class="icon-address"
-                      name="location-outline"
-                    ></ion-icon>
+                  <li class="det">
+                    <img src="icon/pin.png" class="pin">
                     <span>Address - </span>
                     <p>Hillside Rd, Hiranandani...</p>
                   </li>
                 </ul>
               </div>
-
-              <a href="#" class="btn btn--pay">
+              <a href="#" class="btn pay">
                 <img src="icon/banknote.svg" class="icon-pay" />
                 <span>Pay</span>
               </a>
             </div>
-
-            <div class="member">
-              <img
-                class="member-img"
-                src="img/member-2.jpeg"
-                alt="Photo of Genevieve Juma"
-              />
-
+            <div class="person">
+              <img class="pic" src="img/p2.jpeg" alt="Photo of Genevieve Juma" />
               <div>
-                <p class="member-name">Genevieve Juma</p>
-                <ul class="member-details">
-                  <li class="member-detail">
-                    <ion-icon
-                      class="icon-filed"
-                      name="calendar-clear-outline"
-                    ></ion-icon>
+                <p class="name">Genevieve Juma</p>
+                <ul class="dets">
+                  <li class="det">
+                    <img src="icon/cal.png" class="cal">
                     <span>Filed - </span>
-                    <p>Thu, Jul 10, 2018 7:30 PM EDT</p>
+                    <p>Thu, Jul 10, 2018</p> <pre> </pre> <p>7:30 PM EDT</p>
                   </li>
-                  <li class="member-detail">
-                    <ion-icon
-                      class="icon-due"
-                      name="calendar-outline"
-                    ></ion-icon>
+                  <li class="det">
+                    <img src="icon/event.png" class="event">
                     <span>Due - </span>
-                    <p>Wed, Jul 23, 2019 12:30 PM</p>
+                    <p>Wed, Jul 23, 2019</p> <pre> </pre> <p>12:30 PM</p>
                   </li>
-                  <li class="member-detail">
-                    <ion-icon
-                      class="icon-address"
-                      name="location-outline"
-                    ></ion-icon>
+                  <li class="det">
+                    <img src="icon/pin.png" class="pin">
                     <span>Address - </span>
                     <p>Hillside Rd, Hiranandani...</p>
                   </li>
                 </ul>
               </div>
-
-              <a href="#" class="btn btn--pay">
+              <a href="#" class="btn pay">
                 <img src="icon/banknote.svg" class="icon-pay" />
                 <span>Pay</span>
               </a>
             </div>
-            <div class="member">
-              <img
-                class="member-img"
-                src="img/member-3.png"
-                alt="Photo of Theodore Wachira"
-              />
-
+            <div class="person">
+              <img class="pic" src="img/p3.png" alt="Photo of Theodore Wachira" />
               <div>
-                <p class="member-name">Theodore Wachira</p>
-                <ul class="member-details">
-                  <li class="member-detail">
-                    <ion-icon
-                      class="icon-filed"
-                      name="calendar-clear-outline"
-                    ></ion-icon>
+                <p class="name">Theodore Wachira</p>
+                <ul class="dets">
+                  <li class="det">
+                    <img src="icon/cal.png" class="cal">
                     <span>Filed - </span>
-                    <p>Thu, Jul 10, 2018 7:30 PM EDT</p>
+                    <p>Thu, Jul 10, 2018</p> <pre> </pre> <p>7:30 PM EDT</p>
                   </li>
-                  <li class="member-detail">
-                    <ion-icon
-                      class="icon-due"
-                      name="calendar-outline"
-                    ></ion-icon>
+                  <li class="det">
+                    <img src="icon/event.png" class="event">
                     <span>Due - </span>
-                    <p>Wed, Jul 23, 2019 12:30 PM</p>
+                    <p>Wed, Jul 23, 2019</p> <pre> </pre> <p>12:30 PM</p>
                   </li>
-                  <li class="member-detail">
-                    <ion-icon
-                      class="icon-address"
-                      name="location-outline"
-                    ></ion-icon>
+                  <li class="det">
+                    <img src="icon/pin.png" class="pin">
                     <span>Address - </span>
-                    <p>Hillside Rd, Hiranandani...</p>
+                    <p> Hillside Rd, Hiranandani...</p>
                   </li>
                 </ul>
               </div>
-
-              <a href="#" class="btn btn--pay">
+              <a href="#" class="btn pay">
                 <img src="icon/banknote.svg" class="icon-pay" />
                 <span>Pay</span>
               </a>
             </div>
+            <div class="act-section">
+              <p class="act-heading">activity</p>
 
-            <div class="activity-section">
-              <p class="activity-heading">Activity</p>
-
-              <div class="activities">
-                <div class="activity">
-                  <p class="title">Claimed $2000</p>
+              <div class="acts">
+                <div class="act">
+                  <div class="point"></div>
+                  <p class="act-title">Claimed $2000</p>
                   <p class="desc">
                     23 members are got claimed in washington DC
                   </p>
                   <p class="time">05:40pm</p>
                 </div>
 
-                <div class="activity">
-                  <p class="title">102 New Members</p>
+                <div class="act">
+                  <div class="point"></div>
+                  <p class="act-title">102 New Members</p>
                   <p class="desc">
                     We have 102 registrations check out their profiles
                   </p>
                   <p class="time">05:40pm</p>
                 </div>
 
-                <div class="activity">
-                  <p class="title">3 Claims are waiting</p>
+                <div class="act">
+                  <div class="point"></div>
+                  <p class="act-title">3 Claims are waiting</p>
                   <p class="desc">
                     Please contribute them, they are Waiting for your help
                   </p>
                   <p class="time">05:40pm</p>
                 </div>
 
-                <div class="activity">
-                  <p class="title">102 New Members</p>
+                <div class="act">
+                  <div class="point"></div>
+                  <p class="act-title">102 New Members</p>
                   <p class="desc">
                     We have 102 registrations check out their profiles
                   </p>
                   <p class="time">05:40pm</p>
                 </div>
 
-                <div class="activity">
-                  <p class="title">Claimed $2000</p>
+                <div class="act">
+                  <div class="point"></div>
+                  <p class="act-title">Claimed $2000</p>
                   <p class="desc">
                     23 members are got claimed in washington DC
                   </p>
                   <p class="time">05:40pm</p>
                 </div>
 
-                <div class="activity">
-                  <p class="title">102 New Members</p>
+                <div class="act">
+                  <div class="point"></div>
+                  <p class="act-title">102 New Members</p>
                   <p class="desc">
                     We have 102 registrations check out their profiles
                   </p>
                   <p class="time">05:40pm</p>
                 </div>
 
-                <div class="activity">
-                  <p class="title">3 Claims are waiting</p>
+                <div class="act">
+                  <div class="point"></div>
+                  <p class="act-title">3 Claims are waiting</p>
                   <p class="desc">
                     Please contribute them, they are Waiting for your help
                   </p>
                   <p class="time">05:40pm</p>
                 </div>
 
-                <div class="activity">
-                  <p class="title">102 New Members</p>
+                <div class="act">
+                  <div class="point"></div>
+                  <p class="act-title">102 New Members</p>
                   <p class="desc">
                     We have 102 registrations check out their profiles
                   </p>
                   <p class="time">05:40pm</p>
                 </div>
 
-                <div class="activity">
-                  <p class="title">Claimed $2000</p>
+                <div class="act">
+                  <div class="point"></div>
+                  <p class="act-title">Claimed $2000</p>
                   <p class="desc">
                     23 members are got claimed in washington DC
                   </p>
                   <p class="time">05:40pm</p>
                 </div>
 
-                <div class="activity">
-                  <p class="title">102 New Members</p>
+                <div class="act">
+                  <div class="point"></div>
+                  <p class="act-title">102 New Members</p>
                   <p class="desc">
                     We have 102 registrations check out their profiles
                   </p>
                   <p class="time">05:40pm</p>
                 </div>
 
-                <div class="activity">
-                  <p class="title">3 Claims are waiting</p>
+                <div class="act">
+                  <div class="point"></div>
+                  <p class="act-title">3 Claims are waiting</p>
                   <p class="desc">
                     Please contribute them, they are Waiting for your help
                   </p>
                   <p class="time">05:40pm</p>
                 </div>
 
-                <div class="activity">
-                  <p class="title">102 New Members</p>
+                <div class="act">
+                  <div class="point"></div>
+                  <p class="act-title">102 New Members</p>
                   <p class="desc">
                     We have 102 registrations check out their profiles
                   </p>
                   <p class="time">05:40pm</p>
                 </div>
 
-                <div class="activity">
-                  <p class="title">Claimed $2000</p>
+                <div class="act">
+                  <div class="point"></div>
+                  <p class="act-title">Claimed $2000</p>
                   <p class="desc">
                     23 members are got claimed in washington DC
                   </p>
                   <p class="time">05:40pm</p>
                 </div>
 
-                <div class="activity">
-                  <p class="title">102 New Members</p>
+                <div class="act">
+                  <div class="point"></div>
+                  <p class="act-title">102 New Members</p>
                   <p class="desc">
                     We have 102 registrations check out their profiles
                   </p>
                   <p class="time">05:40pm</p>
                 </div>
 
-                <div class="activity">
-                  <p class="title">3 Claims are waiting</p>
+                <div class="act">
+                  <div class="point"></div>
+                  <p class="act-title">3 Claims are waiting</p>
                   <p class="desc">
                     Please contribute them, they are Waiting for your help
                   </p>
                   <p class="time">05:40pm</p>
                 </div>
 
-                <div class="activity">
-                  <p class="title">102 New Members</p>
+                <div class="act">
+                  <div class="point"></div>
+                  <p class="act-title">102 New Members</p>
                   <p class="desc">
                     We have 102 registrations check out their profiles
                   </p>
                   <p class="time">05:40pm</p>
                 </div>
 
-                <div class="activity">
-                  <p class="title">Claimed $2000</p>
+                <div class="act">
+                  <div class="point"></div>
+                  <p class="act-title">Claimed $2000</p>
                   <p class="desc">
                     23 members are got claimed in washington DC
                   </p>
                   <p class="time">05:40pm</p>
                 </div>
 
-                <div class="activity">
-                  <p class="title">102 New Members</p>
+                <div class="act">
+                  <div class="point"></div>
+                  <p class="act-title">102 New Members</p>
                   <p class="desc">
                     We have 102 registrations check out their profiles
                   </p>
                   <p class="time">05:40pm</p>
                 </div>
 
-                <div class="activity">
-                  <p class="title">3 Claims are waiting</p>
+                <div class="act">
+                  <div class="point"></div>
+                  <p class="act-title">3 Claims are waiting</p>
                   <p class="desc">
                     Please contribute them, they are Waiting for your help
                   </p>
                   <p class="time">05:40pm</p>
                 </div>
 
-                <div class="activity">
-                  <p class="title">102 New Members</p>
+                <div class="act">
+                  <div class="point"></div>
+                  <p class="act-title">102 New Members</p>
                   <p class="desc">
                     We have 102 registrations check out their profiles
                   </p>
                   <p class="time">05:40pm</p>
                 </div>
 
-                <div class="activity">
-                  <p class="title">Claimed $2000</p>
+                <div class="act">
+                  <div class="point"></div>
+                  <p class="act-title">Claimed $2000</p>
                   <p class="desc">
                     23 members are got claimed in washington DC
                   </p>
                   <p class="time">05:40pm</p>
                 </div>
 
-                <div class="activity">
-                  <p class="title">102 New Members</p>
+                <div class="act">
+                  <div class="point"></div>
+                  <p class="act-title">102 New Members</p>
                   <p class="desc">
                     We have 102 registrations check out their profiles
                   </p>
                   <p class="time">05:40pm</p>
                 </div>
 
-                <div class="activity">
-                  <p class="title">3 Claims are waiting</p>
+                <div class="act">
+                  <div class="point"></div>
+                  <p class="act-title">3 Claims are waiting</p>
                   <p class="desc">
                     Please contribute them, they are Waiting for your help
                   </p>
                   <p class="time">05:40pm</p>
                 </div>
 
-                <div class="activity">
-                  <p class="title">102 New Members</p>
+                <div class="act">
+                  <div class="point"></div>
+                  <p class="act-title">102 New Members</p>
                   <p class="desc">
                     We have 102 registrations check out their profiles
                   </p>
                   <p class="time">05:40pm</p>
                 </div>
 
-                <div class="activity">
-                  <p class="title">Claimed $2000</p>
+                <div class="act">
+                  <div class="point"></div>
+                  <p class="act-title">Claimed $2000</p>
                   <p class="desc">
                     23 members are got claimed in washington DC
                   </p>
                   <p class="time">05:40pm</p>
                 </div>
 
-                <div class="activity">
-                  <p class="title">102 New Members</p>
+                <div class="act">
+                  <div class="point"></div>
+                  <p class="act-title">102 New Members</p>
                   <p class="desc">
                     We have 102 registrations check out their profiles
                   </p>
                   <p class="time">05:40pm</p>
                 </div>
 
-                <div class="activity">
-                  <p class="title">3 Claims are waiting</p>
+                <div class="act">
+                  <div class="point"></div>
+                  <p class="act-title">3 Claims are waiting</p>
                   <p class="desc">
                     Please contribute them, they are Waiting for your help
                   </p>
                   <p class="time">05:40pm</p>
                 </div>
 
-                <div class="activity">
-                  <p class="title">102 New Members</p>
+                <div class="act">
+                  <div class="point"></div>
+                  <p class="act-title">102 New Members</p>
                   <p class="desc">
                     We have 102 registrations check out their profiles
                   </p>
                   <p class="time">05:40pm</p>
                 </div>
 
-                <div class="activity">
-                  <p class="title">Claimed $2000</p>
+                <div class="act">
+                  <div class="point"></div>
+                  <p class="act-title">Claimed $2000</p>
                   <p class="desc">
                     23 members are got claimed in washington DC
                   </p>
                   <p class="time">05:40pm</p>
                 </div>
 
-                <div class="activity">
-                  <p class="title">102 New Members</p>
+                <div class="act">
+                  <div class="point"></div>
+                  <p class="act-title">102 New Members</p>
                   <p class="desc">
                     We have 102 registrations check out their profiles
                   </p>
                   <p class="time">05:40pm</p>
                 </div>
 
-                <div class="activity">
-                  <p class="title">3 Claims are waiting</p>
+                <div class="act">
+                  <div class="point"></div>
+                  <p class="act-title">3 Claims are waiting</p>
                   <p class="desc">
                     Please contribute them, they are Waiting for your help
                   </p>
                   <p class="time">05:40pm</p>
                 </div>
 
-                <div class="activity">
-                  <p class="title">102 New Members</p>
+                <div class="act">
+                  <div class="point"></div>
+                  <p class="act-title">102 New Members</p>
                   <p class="desc">
                     We have 102 registrations check out their profiles
                   </p>
                   <p class="time">05:40pm</p>
                 </div>
 
-                <div class="activity">
-                  <p class="title">Claimed $2000</p>
+                <div class="act">
+                  <div class="point"></div>
+                  <p class="act-title">Claimed $2000</p>
                   <p class="desc">
                     23 members are got claimed in washington DC
                   </p>
                   <p class="time">05:40pm</p>
                 </div>
 
-                <div class="activity">
-                  <p class="title">102 New Members</p>
+                <div class="act">
+                  <div class="point"></div>
+                  <p class="act-title">102 New Members</p>
                   <p class="desc">
                     We have 102 registrations check out their profiles
                   </p>
                   <p class="time">05:40pm</p>
                 </div>
 
-                <div class="activity">
-                  <p class="title">3 Claims are waiting</p>
+                <div class="act">
+                  <div class="point"></div>
+                  <p class="act-title">3 Claims are waiting</p>
                   <p class="desc">
                     Please contribute them, they are Waiting for your help
                   </p>
                   <p class="time">05:40pm</p>
                 </div>
 
-                <div class="activity">
-                  <p class="title">102 New Members</p>
+                <div class="act">
+                  <div class="point"></div>
+                  <p class="act-title">102 New Members</p>
                   <p class="desc">
                     We have 102 registrations check out their profiles
                   </p>
                   <p class="time">05:40pm</p>
                 </div>
 
-                <div class="activity">
-                  <p class="title">Claimed $2000</p>
+                <div class="act">
+                  <div class="point"></div>
+                  <p class="act-title">Claimed $2000</p>
                   <p class="desc">
                     23 members are got claimed in washington DC
                   </p>
                   <p class="time">05:40pm</p>
                 </div>
 
-                <div class="activity">
-                  <p class="title">102 New Members</p>
+                <div class="act">
+                  <div class="point"></div>
+                  <p class="act-title">102 New Members</p>
                   <p class="desc">
                     We have 102 registrations check out their profiles
                   </p>
                   <p class="time">05:40pm</p>
                 </div>
 
-                <div class="activity">
-                  <p class="title">3 Claims are waiting</p>
+                <div class="act">
+                  <div class="point"></div>
+                  <p class="act-title">3 Claims are waiting</p>
                   <p class="desc">
                     Please contribute them, they are Waiting for your help
                   </p>
                   <p class="time">05:40pm</p>
                 </div>
 
-                <div class="activity">
-                  <p class="title">102 New Members</p>
+                <div class="act">
+                  <div class="point"></div>
+                  <p class="act-title">102 New Members</p>
                   <p class="desc">
                     We have 102 registrations check out their profiles
                   </p>
@@ -668,18 +639,6 @@
         </div>
       </section>
     </div>
-
-    <!-- BACKGROUND
-      <div class="bg bg-1"></div>
-      <div class="bg bg-2"></div>
-      <div class="bg bg-3"></div>
-      <div class="bg bg-4"></div>
-      <div class="bg bg-5"></div>
-      <div class="bg bg-6"></div>
-      <div class="bg bg-7"></div>
-      <div class="bg bg-8"></div>
-    </div> -->
-
     <script
       type="module"
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
